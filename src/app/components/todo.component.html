@@ -1,0 +1,26 @@
+<div class="todo-checkbox">
+  <mat-checkbox
+    class="example-margin"
+    (click)="checkedTodoItem(id)"
+    [(ngModel)]="checked"
+    ><input
+      matInput
+      type="text"
+      class="edit"
+      [(ngModel)]="todoText"
+      [value]="todoText"
+      [disabled]="!isEditable"
+  /></mat-checkbox>
+</div>
+<div class="todo-buttons">
+  <button
+    mat-stroked-button
+    class="edit"
+    (click)="editSaveItem(id, isEditable ? 'Save' : 'Edit')"
+  >
+    {{ isEditable ? "Save" : "Edit" }}
+  </button>
+  <button mat-stroked-button class="delete" (click)="deleteItem(id)">
+    Delete
+  </button>
+</div>

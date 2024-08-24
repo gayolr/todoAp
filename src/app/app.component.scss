@@ -1,0 +1,32 @@
+button.mdc-button.mdc-button--unelevated.mat-mdc-unelevated-button.mat-unthemed.mat-mdc-button-base {
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+input#mat-input-0 {
+    width: 100%;
+    height: 40px;
+}
+
+mat-card.mat-mdc-card {
+    text-align: center;
+}
+
+.mat-mdc-card-header {
+    justify-content: center;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+mat-card-title.mat-mdc-card-title {
+    font-size: 2.5rem;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

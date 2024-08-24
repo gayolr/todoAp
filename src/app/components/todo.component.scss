@@ -1,0 +1,29 @@
+:host {
+    margin: 8px;
+}
+
+.todo-checkbox {
+    text-align: left;
+    width: 100%;
+}
+
+button.mdc-button.mdc-button--outlined.mat-mdc-outlined-button.mat-unthemed.mat-mdc-button-base {
+  width: calc(50% - 16px);
+  margin: 0 8px;
+}
+
+button.mdc-button.mdc-button--outlined.mat-mdc-outlined-button.mat-unthemed.mat-mdc-button-base.delete {
+  background-color: #ca3c3c;
+  color: #fff;
+}
+
+input[type="text"].edit {
+    width: 500px;
+    height: 25px;
+}
+
+input[type="text"].edit:disabled {
+    background-color: #fff;
+    border-color: #fff;
+    border: none;
+}
